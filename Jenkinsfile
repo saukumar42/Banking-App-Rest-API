@@ -4,7 +4,7 @@ pipeline {
         stage('SCM Checkout') {
             steps {
                 script {
-                    git 'https://github.com/prio21/BankingApplication.git'
+                    git 'https://github.com/saukumar42/Banking-App-Rest-API'
                 }
             }
         }
